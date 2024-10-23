@@ -15,6 +15,8 @@
   --clr-border-2: hsl(214, 32%, 91%); /* #E2E8F0 */
   --clr-border-3: hsl(240, 24%, 96%); /* #F2F2F7 */
   --clr-muted-bg: hsl(278, 100%, 98%); /* #FCF7FF */
+  --clr-input: hsl(213, 27%, 84%); /* #cbd5e1 */
+  --clr-white: hsl(0, 0%, 100%); /* #ffffff */
 
   /***** fonts *****/
   --ff-inter: "Inter", sans-serif;
@@ -44,4 +46,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.dark-mode {
+  --bg-color: hsl(252, 12%, 24%); /* #383544 */
+  --bg-color-300: hsl(255, 7%, 43%); /* #6A6676 */
+  --bg-color-light: hsl(252, 10%, 30%); /* #484554 */
+  --border-light: hsl(253, 12%, 70%); /* #ADA9BB */
+  --sidebar-item-color: #fff;
+  --sidebar-item-bg-active: var(--clr-blue-300);
+  --text-color: var(--clr-muted-bg);
+  --clr-success-dark: hsl(160, 64%, 63%); /* #65DDB5 */
+  --clr-blue-300: hsl(247, 100%, 73%); /* #8576FF */
 }

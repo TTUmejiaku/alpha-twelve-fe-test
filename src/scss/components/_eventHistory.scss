@@ -24,6 +24,7 @@
   &__title {
     font-size: f.rem(17);
     font-weight: 500;
+    color: var(--text-color, var(--clr-black));
 
     @include b.mq-up(medium) {
       & {

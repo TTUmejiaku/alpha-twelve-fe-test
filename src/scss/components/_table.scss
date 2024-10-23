@@ -10,17 +10,18 @@
   & td {
     padding: 1rem;
     text-align: left;
+    background: var(--bg-color-light, white);
   }
 
   & th {
-    background-color: var(--clr-cyan-300);
+    background: var(--bg-color-300, var(--clr-cyan-300));
     font-weight: 600;
-    color: var(--clr-black-300);
+    color: var(--text-color, var(--clr-black-300));
     font-size: var(--fs-xSmall);
   }
 
   & td {
-    color: var(--clr-black);
+    color: var(--text-color, var(--clr-black));
     font-size: var(--fs-small);
     font-weight: normal;
     cursor: pointer;

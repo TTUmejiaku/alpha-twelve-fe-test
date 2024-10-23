@@ -5,7 +5,7 @@
 .sidebar {
   padding-block: 1rem;
   min-height: 100dvh;
-  background: white;
+  background: var(--bg-color-light, white);
   position: fixed;
   inset: 0;
   z-index: 999;
@@ -20,7 +20,7 @@
   @include b.mq-up(medium) {
     & {
       width: 250px;
-      border-right: solid 1px var(--clr-border);
+      border-right: solid 1px var(--bg-color, var(--clr-border));
       transform: translateX(0);
     }
 
@@ -105,8 +105,8 @@
     transition: 0.3s ease;
 
     &.active {
-      background-color: var(--clr-muted-bg);
-      color: var(--clr-blue-300);
+      background-color: var(--sidebar-item-bg-active, var(--clr-muted-bg));
+      color: var(--sidebar-item-color, var(--clr-blue-300));
       font-weight: 500;
     }
   }
@@ -139,7 +139,7 @@
   }
 
   &__menu-item:hover {
-    background-color: var(--clr-muted-bg);
+    background-color: var(--sidebar-item-bg-active, var(--clr-muted-bg));
     padding-inline: 10px;
   }
 
@@ -194,7 +194,7 @@
 
   &__menu-text,
   &__menu-username {
-    color: var(--clr-black);
+    color: var(--sidebar-item-color, var(--clr-black));
     font-size: var(--fs-small);
 
     .sidebar__menu-item:hover &,
@@ -203,7 +203,7 @@
     .sidebar__menu-item--collapse:hover &,
     .sidebar__menu-item.active &,
     .sidebar__menu-item--notification.active & {
-      color: var(--clr-blue-300);
+      color: var(--sidebar-item-color, var(--clr-blue-300));
     }
 
     @include b.mq-up(medium) {
@@ -215,6 +215,6 @@
 
   &__menu-email {
     font-size: var(--fs-xSmall);
-    color: #64748b;
+    color: var(--sidebar-item-color, #64748b);
   }
 }

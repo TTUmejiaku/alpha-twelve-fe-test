@@ -78,5 +78,11 @@ function renderSwitch() {
   switchLabel.textContent = "Dark mode";
   switchLabel.classList.add("sidebar__menu-text");
 
+  const toggleDarkModeButton =
+    sidebarItemSwitch.querySelector(".switch__input");
+  toggleDarkModeButton.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+  });
+
   sidebarItemSwitch.appendChild(switchLabel);
 }

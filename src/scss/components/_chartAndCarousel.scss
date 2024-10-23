@@ -29,6 +29,7 @@
   &__title {
     font-size: f.rem(17);
     font-weight: 500;
+    color: var(--text-color, var(--clr-black));
 
     @include b.mq-up(large) {
       & {
@@ -42,7 +43,8 @@
     height: 40vh;
     border-radius: f.rem(2);
     padding: f.rem(10);
-    border: 1px solid var(--clr-border-3);
+    border: 1px solid var(--bg-color, var(--clr-border-3));
+    background: var(--bg-color-light, white);
 
     @include b.mq-up(large) {
       & {
@@ -72,7 +74,6 @@
     width: 100%;
     height: 100%;
     border-radius: f.rem(14);
-    // overflow: hidden;
     transition: all 300ms ease-in-out;
 
     & > img {

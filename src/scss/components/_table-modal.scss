@@ -17,7 +17,7 @@
 }
 
 .table-modal {
-  background-color: white;
+  background: var(--bg-color-light, white);
   width: f.rem(335);
   border-radius: var(--br2);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -37,7 +37,7 @@
     &-title {
       font-size: var(--fs-small);
       font-weight: 600;
-      color: var(--clr-black);
+      color: var(--text-color, var(--clr-black));
 
       @include b.mq-up(medium) {
         & {
@@ -48,7 +48,7 @@
 
     &-date {
       font-size: var(--fs-small);
-      color: var(--clr-black-300);
+      color: var(--text-color, var(--clr-black-300));
       margin-top: f.rem(2);
     }
   }
@@ -71,7 +71,7 @@
 
     &-title {
       font-size: var(--fs-small);
-      color: var(--clr-black);
+      color: var(--text-color, var(--clr-black));
     }
   }
 
@@ -112,7 +112,7 @@
 
   &__speakers {
     font-size: var(--fs-small);
-    color: var(--clr-black);
+    color: var(--text-color, var(--clr-black));
     line-height: f.rem(20);
   }
 
@@ -121,7 +121,7 @@
     flex-direction: column;
     gap: f.rem(10);
     padding: f.rem(24);
-    background: hsl(210, 40%, 98%);
+    background: var(--border-light, hsl(210, 40%, 98%));
 
     & > div {
       display: flex;

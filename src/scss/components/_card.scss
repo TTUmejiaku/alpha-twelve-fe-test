@@ -4,11 +4,12 @@
 
 .card {
   padding: 1rem;
-  border: 1px solid var(--clr-border-3);
+  border: 1px solid var(--bg-color, var(--clr-border-3));
   border-radius: f.rem(2);
+  background: var(--bg-color-light, white);
 
   &:hover {
-    background-color: var(--clr-muted-bg);
+    background-color: var(--bg-color, var(--clr-muted-bg));
   }
 
   &__header {
@@ -19,7 +20,7 @@
 
   &__title {
     font-weight: 500;
-    color: var(--clr-black-300);
+    color: var(--text-color, var(--clr-black-300));
     line-height: f.rem(24);
   }
 
@@ -30,7 +31,7 @@
   }
 
   &__content-text {
-    color: var(--clr-black);
+    color: var(--text-color, var(--clr-black));
     font-size: var(--fs-medium);
     line-height: f.rem(32);
     font-weight: 500;
@@ -43,12 +44,12 @@
 
     & > p {
       font-size: f.rem(10);
-      font-weight: 500;
+      font-weight: 600;
       color: var(--clr-red);
     }
 
     &.isPositive > p {
-      color: var(--clr-success);
+      color: var(--clr-success-dark, var(--clr-success));
     }
   }
 }

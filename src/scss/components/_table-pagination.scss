@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: f.rem(16);
 
   &__left {
     display: flex;
@@ -30,7 +31,7 @@
 
     &-num {
       border-radius: 50%;
-      color: var(--clr-black);
+      color: var(--text-color, var(--clr-black));
       font-size: var(--fs-small);
       width: f.rem(24);
       height: f.rem(24);

@@ -1,13 +1,3 @@
-// import {
-//   bellIcon,
-//   chatIcon,
-//   eventIcon,
-//   homeIcon,
-//   reportsIcon,
-//   settingsIcon,
-//   speakersIcon,
-// } from "../../public/images";
-
 export const sidebarData = [
   {
     id: "home",

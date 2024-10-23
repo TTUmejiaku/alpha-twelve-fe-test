@@ -28,7 +28,7 @@
     top: 0;
     width: 100%;
     padding-block: 1rem;
-    background: white;
+    background: var(--bg-color-light, white);
     z-index: 100;
 
     @include b.mq-up(medium) {
@@ -66,7 +66,7 @@
   &__close {
     height: f.rem(24);
     width: f.rem(24);
-    background: white;
+    background: var(--bg-color-light, white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,7 +76,6 @@
   }
 
   &__top {
-    border-top: 1px solid var(--clr-border-2);
     padding-top: f.rem(8);
     margin-top: f.rem(54);
 
@@ -91,6 +90,7 @@
 
   &__title {
     line-height: 20px;
+    color: var(--text-color, var(--clr-black));
 
     @include b.mq-up(medium) {
       & {

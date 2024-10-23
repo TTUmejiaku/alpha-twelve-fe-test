@@ -18,6 +18,7 @@ html:focus-within {
 body {
   min-height: 100dvh;
   font-family: var(--ff-inter);
+  background-color: var(--bg-color, white);
 }
 
 /* A elements that don't have a class get default styles */

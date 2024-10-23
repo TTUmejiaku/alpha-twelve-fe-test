@@ -29,12 +29,14 @@
     width: 100%;
     height: f.rem(36);
     padding: f.rem(8) f.rem(8) f.rem(8) f.rem(30);
-    border: 1px solid var(--clr-border-2);
+    border: 1px solid var(--bg-color, var(--clr-border-2));
     border-radius: var(--br2);
     font-size: var(--fs-small);
+    background: var(--bg-color-light, white);
+    color: var(--clr-black, var(--clr-input));
 
     &::placeholder {
-      color: #cbd5e1;
+      color: var(--clr-input);
     }
 
     &:focus,
@@ -79,7 +81,7 @@
 
   &__display-results {
     font-size: var(--fs-small);
-    color: var(--clr-black);
+    color: var(--text-color, var(--clr-black));
     font-weight: 600;
 
     &.pagination {
@@ -112,7 +114,7 @@
 
     & > p {
       font-size: var(--fs-small);
-      color: var(--clr-black);
+      color: var(--text-color, var(--clr-black));
     }
 
     @include b.mq-up(large) {
@@ -139,11 +141,11 @@
   &__vertical-dot {
     width: f.rem(36);
     height: f.rem(36);
-    border: 1px solid var(--clr-border-2);
+    border: 1px solid var(--bg-color, var(--clr-border-2));
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background: var(--bg-color-light, white);
     border-radius: var(--br2);
   }
 
@@ -153,11 +155,11 @@
     align-items: center;
     justify-content: center;
     gap: f.rem(8);
-    background-color: white;
-    border: 1px solid var(--clr-border-2);
+    background: var(--bg-color-light, white);
+    border: 1px solid var(--bg-color, var(--clr-border-2));
     cursor: pointer;
     font-size: var(--fs-small);
-    color: var(--clr-black);
+    color: var(--text-color, var(--clr-black));
     padding: f.rem(8) 1rem;
     border-radius: var(--br2);
   }
@@ -167,23 +169,24 @@
 .table__dropdown {
   position: relative;
   padding: f.rem(8);
-  border: 1px solid var(--clr-border-2);
+  border: 1px solid var(--bg-color, var(--clr-border-2));
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: var(--br2);
   min-width: 110px;
+  background: var(--bg-color-light, white);
 
   &-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: f.rem(8);
-    background-color: white;
+    background: var(--bg-color-light, white);
     border: none;
     cursor: pointer;
     font-size: var(--fs-small);
-    color: var(--clr-black);
+    color: var(--text-color, var(--clr-black));
     padding-inline: f.rem(8);
   }
 
@@ -194,8 +197,9 @@
     right: 0;
     top: 120%;
     width: 100%;
-    background-color: white;
-    border: 1px solid var(--clr-border-2);
+    background: var(--bg-color-light, white);
+    color: var(--text-color, var(--clr-black));
+    border: 1px solid var(--bg-color, var(--clr-border-2));
     border-radius: var(--br2);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
     z-index: 200;
@@ -207,7 +211,7 @@
       display: block;
 
       &:hover {
-        background-color: #f1f1f1;
+        background: var(--bg-color, #f1f1f1);
       }
     }
 

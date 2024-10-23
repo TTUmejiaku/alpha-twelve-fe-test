@@ -3,12 +3,12 @@
 @use "../abstracts/mixins.scss" as m;
 
 .main-panel__footer {
-  border-top: 1px solid var(--clr-border-2);
+  border-top: 1px solid var(--border-light, var(--clr-border-2));
   position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 50;
-  background: white;
+  background-color: var(--bg-color, var(--clr-white));
   padding-bottom: f.rem(12);
 
   @include b.mq-up(medium) {
@@ -40,15 +40,15 @@
       border-top: 4px solid transparent;
       border-top-left-radius: f.rem(2);
       border-top-right-radius: f.rem(2);
-      color: var(--clr-black);
+      color: var(--text-color, var(--clr-black));
       font-size: var(--fs-small);
       transition: all 0.3s ease-in-out;
 
       &:hover,
       &.active {
+        background-color: var(--bg-color, var(--clr-muted-bg));
+        color: var(--clr-blue-300, var(--clr-blue-300));
         border-top-color: var(--clr-blue-300);
-        color: var(--clr-blue-300);
-        background-color: var(--clr-muted-bg);
       }
     }
   }
