@@ -1,0 +1,47 @@
+:root {
+  /***** colors *****/
+  --clr-black-300: hsl(215, 16%, 47%); /* #64748B */
+  --clr-black: hsl(215, 25%, 27%); /* #334155 */
+  --clr-blue-200: hsl(214, 95%, 93%); /* #DBEAFE */
+  --clr-blue-300: hsl(247, 100%, 73%); /* #8576FF */
+  --clr-blue-400: hsl(217, 91%, 60%); /* #3B82F6 */
+  --clr-blue: hsl(221, 83%, 53%); /* #2563EB */
+  --clr-cyan-300: hsl(210, 40%, 96%); /* #F1F5F9 */
+  --clr-cyan: hsl(212, 96%, 78%);
+  --clr-green-200: hsl(149, 80%, 90%); /* #D1FAE5 */
+  --clr-success: hsl(160, 84%, 39%); /* #10B981 */
+  --clr-red: hsl(350, 89%, 60%); /* F43F5E */
+  --clr-border: hsl(210, 40%, 96%);
+  --clr-border-2: hsl(214, 32%, 91%); /* #E2E8F0 */
+  --clr-border-3: hsl(240, 24%, 96%); /* #F2F2F7 */
+  --clr-muted-bg: hsl(278, 100%, 98%); /* #FCF7FF */
+
+  /***** fonts *****/
+  --ff-inter: "Inter", sans-serif;
+
+  /*** font sizes ***/
+  --fs-xSmall: 0.75rem; /* 12px */
+  --fs-small: 0.875rem; /* 14px */
+  --fs-normal: 1rem; /* 16px */
+  --fs-medium: 1.25rem; /* 20px */
+
+  /*** border radius ***/
+  --br2: 0.125rem;
+  --br4: 0.25rem;
+
+  /*** spacing ***/
+  --pxr6: 0.375rem;
+  --pxr8: 0.5rem;
+  --pxr10: 0.625rem;
+  --pxr14: 0.875rem;
+  --pxr16: 1rem;
+  --pxr24: 1.5rem;
+  --pxr32: 2rem;
+  --pxe768: 48em;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

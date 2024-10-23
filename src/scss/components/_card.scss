@@ -1,0 +1,54 @@
+@use "../abstracts/breakpoints" as b;
+@use "../abstracts/functions.scss" as f;
+@use "../abstracts/mixins.scss" as m;
+
+.card {
+  padding: 1rem;
+  border: 1px solid var(--clr-border-3);
+  border-radius: f.rem(2);
+
+  &:hover {
+    background-color: var(--clr-muted-bg);
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: f.rem(4);
+  }
+
+  &__title {
+    font-weight: 500;
+    color: var(--clr-black-300);
+    line-height: f.rem(24);
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: f.rem(8);
+  }
+
+  &__content-text {
+    color: var(--clr-black);
+    font-size: var(--fs-medium);
+    line-height: f.rem(32);
+    font-weight: 500;
+  }
+
+  &__percent-wrapper {
+    display: flex;
+    align-items: center;
+    gap: f.rem(4);
+
+    & > p {
+      font-size: f.rem(10);
+      font-weight: 500;
+      color: var(--clr-red);
+    }
+
+    &.isPositive > p {
+      color: var(--clr-success);
+    }
+  }
+}

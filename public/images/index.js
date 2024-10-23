@@ -1,0 +1,10 @@
+export { default as avatarIcon } from "./avatar.svg";
+export { default as bellIcon } from "./bell.svg";
+export { default as chatIcon } from "./chat.svg";
+export { default as closeIcon } from "./close.svg";
+export { default as doubleChevronIcon } from "./double-chevron-left.svg";
+export { default as eventIcon } from "./event.svg";
+export { default as homeIcon } from "./home.svg";
+export { default as reportsIcon } from "./reports.svg";
+export { default as settingsIcon } from "./settings.svg";
+export { default as speakersIcon } from "./speakers.svg";

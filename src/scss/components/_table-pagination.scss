@@ -1,0 +1,50 @@
+@use "../abstracts/breakpoints" as b;
+@use "../abstracts/functions.scss" as f;
+@use "../abstracts/mixins.scss" as m;
+
+.tablePagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: f.rem(36);
+      width: f.rem(36);
+      border-radius: f.rem(2);
+      background: white;
+      border: 1px solid var(--clr-border-2);
+      cursor: pointer;
+
+      &:disabled {
+        background: var(--clr-border-2);
+      }
+    }
+
+    &-num {
+      border-radius: 50%;
+      color: var(--clr-black);
+      font-size: var(--fs-small);
+      width: f.rem(24);
+      height: f.rem(24);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: f.rem(8);
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+
+      &.active {
+        background: var(--clr-blue-300);
+        color: white;
+      }
+    }
+  }
+}

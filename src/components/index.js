@@ -1,0 +1,11 @@
+export { sidebarTemplate } from "./sidebarTemplate";
+export { mainPanelTemplate } from "./mainPanelTemplate";
+export { switchTemplate } from "./switchTemplate";
+export { renderCardTemplate } from "./cardTemplate";
+export { cardsTemplate } from "./cardsTemplate";
+export { footerTemplate } from "./footerTemplate";
+export { carouselTemplate } from "./carouselTemplate";
+export { tableControlsTemplate } from "./tableControlsTemplate";
+export { renderTableCardTemplate } from "./tableCardTemplate";
+export { paginationTemplate } from "./paginationTemplate";
+export { renderModalTemplate } from "./tableModalTemplate";

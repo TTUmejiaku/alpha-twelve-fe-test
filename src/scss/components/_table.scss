@@ -1,0 +1,62 @@
+@use "../abstracts/breakpoints" as b;
+@use "../abstracts/functions.scss" as f;
+@use "../abstracts/mixins.scss" as m;
+
+.eventHistory__table {
+  width: 100%;
+  border-collapse: collapse;
+
+  & th,
+  & td {
+    padding: 1rem;
+    text-align: left;
+  }
+
+  & th {
+    background-color: var(--clr-cyan-300);
+    font-weight: 600;
+    color: var(--clr-black-300);
+    font-size: var(--fs-xSmall);
+  }
+
+  & td {
+    color: var(--clr-black);
+    font-size: var(--fs-small);
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  & tr:hover {
+    background-color: var(--clr-muted-bg);
+  }
+
+  &-status {
+    border-radius: f.rem(30);
+    padding: f.rem(4) f.rem(10);
+    color: var(--clr-success);
+    font-size: var(--fs-xSmall);
+    background: var(--clr-green-200);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: f.rem(6);
+
+    & > span {
+      height: f.rem(4);
+      width: f.rem(4);
+      background: var(--clr-success);
+      border-radius: 50%;
+      padding: f.rem(4);
+    }
+
+    &.in-progress {
+      color: var(--clr-blue-400);
+      background: var(--clr-blue-200);
+
+      & > span {
+        background: var(--clr-blue-400);
+      }
+    }
+  }
+}

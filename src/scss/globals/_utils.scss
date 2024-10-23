@@ -1,0 +1,49 @@
+@use "../abstracts/breakpoints" as b;
+@use "../abstracts/functions.scss" as f;
+@use "../abstracts/mixins.scss" as m;
+
+.box-shadow {
+  box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 90%;
+  max-width: 2040px;
+  margin-inline: auto;
+
+  @include b.mq-up(medium) {
+    .sidebar.collapse-sidebar & {
+      width: 100%;
+    }
+  }
+}
+
+.container2 {
+  width: 94%;
+  max-width: 2040px;
+  margin-inline: auto;
+
+  @include b.mq-up(medium) {
+    & {
+      width: 96%;
+    }
+  }
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.bred {
+  border: 1px solid red;
+}
+
+.bel {
+  border: 1px solid green;
+}
+
+.bbk {
+  border: 1px solid purple;
+}

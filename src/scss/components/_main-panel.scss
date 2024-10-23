@@ -1,0 +1,114 @@
+@use "../abstracts/breakpoints" as b;
+@use "../abstracts/functions.scss" as f;
+@use "../abstracts/mixins.scss" as m;
+
+.main-panel {
+  flex: 1;
+  padding-block: f.rem(20);
+  overflow-y: auto;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  @include b.mq-up(medium) {
+    & {
+      margin-left: 250px;
+      padding-block: f.rem(40);
+      display: flex;
+      flex-direction: column;
+    }
+
+    &.collapse-sidebar {
+      margin-left: 64px;
+    }
+  }
+
+  &__header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-block: 1rem;
+    background: white;
+    z-index: 100;
+
+    @include b.mq-up(medium) {
+      & {
+        display: none;
+      }
+    }
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__logo {
+    padding: 0.5rem f.rem(6);
+    background: var(--clr-cyan);
+    border: 1px dashed var(--clr-blue);
+    font-size: var(--fs-xSmall);
+    font-weight: 500;
+    color: var(--clr-blue);
+
+    @include b.mq-up(medium) {
+      .sidebar.collapse-sidebar & {
+        height: var(--pxr32);
+        width: var(--pxr32);
+      }
+      .sidebar.collapse-sidebar & > h2 {
+        display: none;
+      }
+    }
+  }
+
+  &__close {
+    height: f.rem(24);
+    width: f.rem(24);
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: f.rem(4);
+    border: 1px solid var(--clr-border-2);
+    cursor: pointer;
+  }
+
+  &__top {
+    border-top: 1px solid var(--clr-border-2);
+    padding-top: f.rem(8);
+    margin-top: f.rem(54);
+
+    @include b.mq-up(medium) {
+      & {
+        border-top: none;
+        padding-top: 0;
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__title {
+    line-height: 20px;
+
+    @include b.mq-up(medium) {
+      & {
+        font-size: f.rem(22);
+      }
+    }
+  }
+
+  &__cards {
+    margin-top: f.rem(12);
+    display: grid;
+    gap: f.rem(12);
+
+    @include b.mq-up(medium) {
+      & {
+        grid-template-columns: repeat(auto-fit, minmax(f.rem(200), 1fr));
+        margin-top: f.rem(24);
+      }
+    }
+  }
+}

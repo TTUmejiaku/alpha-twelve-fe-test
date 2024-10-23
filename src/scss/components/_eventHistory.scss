@@ -1,0 +1,68 @@
+@use "../abstracts/breakpoints" as b;
+@use "../abstracts/functions.scss" as f;
+@use "../abstracts/mixins.scss" as m;
+
+.eventHistory {
+  margin-block: f.rem(20) f.rem(60);
+
+  @include b.mq-up(medium) {
+    & {
+      margin-block: f.rem(28) 0;
+    }
+  }
+
+  &__wrapper {
+    padding-block: f.rem(12) f.rem(25);
+
+    @include b.mq-up(medium) {
+      & {
+        padding-block: f.rem(14) f.rem(60);
+      }
+    }
+  }
+
+  &__title {
+    font-size: f.rem(17);
+    font-weight: 500;
+
+    @include b.mq-up(medium) {
+      & {
+        font-size: f.rem(18);
+      }
+    }
+  }
+
+  &__table-control {
+    display: flex;
+    flex-direction: column;
+    gap: f.rem(8);
+
+    @include b.mq-up(xLarge) {
+      & {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  &__table-cards {
+    margin-top: 1rem;
+
+    @include b.mq-up(large) {
+      & {
+        display: none;
+      }
+    }
+  }
+
+  &__table-wrapper {
+    display: none;
+
+    @include b.mq-up(large) {
+      & {
+        display: block;
+        padding-block: 1rem;
+      }
+    }
+  }
+}

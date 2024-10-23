@@ -1,0 +1,212 @@
+[
+  {
+    "id": "d8439318-1acd-4c4b-a9c4-da43ba729f26",
+    "name": "Sustainable Energy Expo",
+    "date": "2024-02-28",
+    "status": "In Progress",
+    "speaker": "Jane Doe"
+  },
+  {
+    "id": "cbf7d275-c519-4e59-98f8-46801c8661b7",
+    "name": "Smart Cities Forum",
+    "date": "2023-11-15",
+    "status": "Completed",
+    "speaker": "Dr. Peter Smith"
+  },
+  {
+    "id": "2094acbf-100a-4586-80fb-854e07c1df89",
+    "name": "Sustainable Energy Expo",
+    "date": "2023-11-24",
+    "status": "Completed",
+    "speaker": "Dr. Aisha Malik"
+  },
+  {
+    "id": "b79b07ed-42ad-43d8-bd21-35907189ac91",
+    "name": "Data Analytics in Business",
+    "date": "2024-08-08",
+    "status": "Completed",
+    "speaker": "John Lee"
+  },
+  {
+    "id": "ff46c84a-b750-42f5-b440-01b97008af35",
+    "name": "Web3 Interfaces Workshop",
+    "date": "2024-02-21",
+    "status": "Completed",
+    "speaker": "Rachel Moore"
+  },
+  {
+    "id": "2c3097bb-6023-412d-8650-eaf7a1328ce2",
+    "name": "Cloud Innovation Summit",
+    "date": "2024-04-03",
+    "status": "Completed",
+    "speaker": "Prof. Alan Green"
+  },
+  {
+    "id": "a080c88d-0464-4a4e-bd1f-9f3d4770b9dd",
+    "name": "Tech Safari Mixer",
+    "date": "2024-01-04",
+    "status": "In Progress",
+    "speaker": "Kevin Adams"
+  },
+  {
+    "id": "439cb2c2-8019-434c-9625-4175c184f8bc",
+    "name": "Cybersecurity for Startups",
+    "date": "2024-01-08",
+    "status": "In Progress",
+    "speaker": "Emily Zhang"
+  },
+  {
+    "id": "665ad2c2-9f7b-49bd-a689-1c2704249fc7",
+    "name": "Sustainable Energy Expo",
+    "date": "2024-04-01",
+    "status": "Completed",
+    "speaker": "Dr. Maria Hernandez"
+  },
+  {
+    "id": "d8a46a8b-1f8e-4b90-8a13-cc24c1270b3a",
+    "name": "Web3 Interfaces Workshop",
+    "date": "2024-07-20",
+    "status": "In Progress",
+    "speaker": "Guest Panel"
+  },
+  {
+    "id": "d74c72ff-6517-4d2b-8f07-271757377b3b",
+    "name": "Blockchain Revolution Conference",
+    "date": "2024-09-11",
+    "status": "Completed",
+    "speaker": "Prof. Alan Green"
+  },
+  {
+    "id": "2724963a-1739-4122-9594-9d1fc41ad5eb",
+    "name": "Data Analytics in Business",
+    "date": "2024-05-03",
+    "status": "In Progress",
+    "speaker": "Dr. Peter Smith"
+  },
+  {
+    "id": "f001406f-6af7-4741-a437-6416b31c73b0",
+    "name": "Web3 Interfaces Workshop",
+    "date": "2024-01-11",
+    "status": "Completed",
+    "speaker": "Dr. Peter Smith"
+  },
+  {
+    "id": "4ee0ddcd-c529-48fb-9471-d4994ba3125e",
+    "name": "Cloud Innovation Summit",
+    "date": "2024-06-13",
+    "status": "In Progress",
+    "speaker": "Kevin Adams"
+  },
+  {
+    "id": "8cbc0b84-fe44-4e3a-bfc7-16daca12ed02",
+    "name": "AI in Healthcare Symposium",
+    "date": "2024-07-18",
+    "status": "Completed",
+    "speaker": "Rachel Moore"
+  },
+  {
+    "id": "5fd89397-b3e3-4eb8-bfbe-b4896ffeacdc",
+    "name": "Cybersecurity for Startups",
+    "date": "2024-02-22",
+    "status": "In Progress",
+    "speaker": "Dr. Peter Smith"
+  },
+  {
+    "id": "8628a44a-1b66-4ebb-abc8-4111d13c255a",
+    "name": "Future of Fintech Forum",
+    "date": "2024-05-22",
+    "status": "In Progress",
+    "speaker": "Dr. Peter Smith"
+  },
+  {
+    "id": "2deb6ce2-fb8a-4c9f-9f01-c72139a601ae",
+    "name": "Blockchain Revolution Conference",
+    "date": "2024-06-13",
+    "status": "Completed",
+    "speaker": "John Lee"
+  },
+  {
+    "id": "3ac8519a-10af-468c-bdac-02cfee1e3bac",
+    "name": "Cybersecurity for Startups",
+    "date": "2024-05-23",
+    "status": "Completed",
+    "speaker": "Dr. Peter Smith"
+  },
+  {
+    "id": "22e79627-61b1-48bb-89a7-026ac1cb1130",
+    "name": "Future of Fintech Forum",
+    "date": "2024-03-07",
+    "status": "In Progress",
+    "speaker": "Dr. Peter Smith"
+  },
+  {
+    "id": "154582c6-4e1e-4bf3-b0d8-eb1fbc5f08d3",
+    "name": "Tech Safari Mixer",
+    "date": "2024-10-05",
+    "status": "Completed",
+    "speaker": "Kevin Adams"
+  },
+  {
+    "id": "9fc57bee-266c-4f3a-954b-edb7c590660a",
+    "name": "Sustainable Energy Expo",
+    "date": "2024-09-21",
+    "status": "Completed",
+    "speaker": "Prof. Alan Green"
+  },
+  {
+    "id": "776e97d7-0023-4d91-b13a-d9b0b4f0af5f",
+    "name": "Cybersecurity for Startups",
+    "date": "2024-03-18",
+    "status": "Completed",
+    "speaker": "Jane Doe"
+  },
+  {
+    "id": "de29be13-e6fe-4fcb-9cd4-21cebb8b92b2",
+    "name": "Web3 Interfaces Workshop",
+    "date": "2024-08-08",
+    "status": "Completed",
+    "speaker": "Dr. Aisha Malik"
+  },
+  {
+    "id": "d6357533-fd1b-4862-ab8d-52d836b3fd2c",
+    "name": "Tech Safari Mixer",
+    "date": "2024-03-22",
+    "status": "In Progress",
+    "speaker": "Dr. Peter Smith"
+  },
+  {
+    "id": "39d44767-4d64-437a-9532-e6cd1b437342",
+    "name": "Cybersecurity for Startups",
+    "date": "2024-08-29",
+    "status": "Completed",
+    "speaker": "Rachel Moore"
+  },
+  {
+    "id": "de8ceddb-703b-443f-8082-ecc7d2478d6f",
+    "name": "AI in Healthcare Symposium",
+    "date": "2024-03-31",
+    "status": "Completed",
+    "speaker": "John Lee"
+  },
+  {
+    "id": "5cf945f9-906a-4c35-a0f3-a2da79c56663",
+    "name": "Web3 Interfaces Workshop",
+    "date": "2024-01-25",
+    "status": "In Progress",
+    "speaker": "Dr. Aisha Malik"
+  },
+  {
+    "id": "5cc58404-6f31-47f7-8129-ec71d90ebb5a",
+    "name": "Cybersecurity for Startups",
+    "date": "2024-04-06",
+    "status": "In Progress",
+    "speaker": "Jane Doe"
+  },
+  {
+    "id": "745202f0-f899-4432-93ec-fa01e85ddc77",
+    "name": "AI in Healthcare Symposium",
+    "date": "2024-02-11",
+    "status": "Completed",
+    "speaker": "Dr. Peter Smith"
+  }
+]
