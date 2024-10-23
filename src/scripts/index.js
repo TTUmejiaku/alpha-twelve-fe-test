@@ -1,4 +1,3 @@
-export { devLoadComponent, loadComponent } from "./loadComponents";
 export { initializeDashboard } from "./initializeDashboard";
 export { renderSidebarItems } from "./renderSidebarItems";
 export {
